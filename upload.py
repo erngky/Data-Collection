@@ -19,7 +19,3 @@ with open('/Users/halil/Documents/csv-files/Kitap1.csv', 'r') as file_obj:
     print("https://docs.google.com/spreadsheets/d/"+spreadsheet.id+ "/edit")
     client.import_csv(spreadsheet.id, data=content)
 
-def otomatik_upload():
-    csv_files = (r"/Users/halil/Documents")
-    for i in csv_files:
-        
